@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState} from 'react'
 import logo from '../assets/logo.svg'
 import { HashLink as Link } from "react-router-hash-link";
 import { navigation } from '../constants/index';
@@ -45,13 +45,25 @@ export const NavBar = () => {
                         <div className={`${openNavigation ? "flex pb-[5rem]" : "hidden"} bg-zinc-950 fixed top-[5rem] left-0 right-0 md:bg-transparent md:static md:flex ml-auto items-center justify-center`}>
                             <div className={`${openNavigation ? "relative z-2 flex flex-col" : "space-x-2"} md:block items-center justify-center m-auto`}>
                             {navigation.map((item: ItemType) => (
-                                <Link
-                                    key={item.id}
-                                    to={item.url}
-                                    className={linkClass(item.isActive)}
+                                // <Link
+                                //     key={item.id}
+                                //     to={item.url}
+                                //     className={linkClass(item.isActive)}
+                                // >
+                                //     {item.title}
+                                // </Link> adauga '#' la linkurile din const
+                                <a
+                                className={linkClass(item.isActive)}
+                                onClick={e => {
+                                let element = document.getElementById(`${item.url}`);
+                                e.preventDefault(); 
+                                element?.scrollIntoView({
+                                    behavior:'smooth'
+                                })
+                                }}
                                 >
-                                    {item.title}
-                                </Link>
+                                {item.title}
+                                </a>
                             ))}
                             </div>
                         </div>

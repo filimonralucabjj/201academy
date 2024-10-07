@@ -8,7 +8,7 @@ const Activities = () => {
     id: number;
     title: string;
     subtitle: string;
-    url: string;
+    elementId: string;
     img: string;
   };
   return (
@@ -22,7 +22,7 @@ const Activities = () => {
                 imgSeq={item.id}
                 title={item.title}
                 subtitle={item.subtitle}
-                url={item.url}
+                id={item.elementId}
                 img={item.img}
               />
             ))}
