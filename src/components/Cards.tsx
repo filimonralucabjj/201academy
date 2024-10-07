@@ -4,7 +4,7 @@ import React from 'react'
 // import armwrestling from '../assets/arm.jpg'
 // import kids from '../assets/kids.jpg'
 
-const Cards = (props: { title: string, subtitle: string, imgSeq: number, id:string, img:string }) => {
+const Cards = (props: { title: string, subtitle: string, id:string, img:string , buttonText: string}) => {
   // const images = [bjj, kick, armwrestling, kids];
   return (
     <div className="max-w-sm rounded-lg shadow bg-zinc-900 mb-5 brightness-50 hover:brightness-100">
@@ -19,7 +19,7 @@ const Cards = (props: { title: string, subtitle: string, imgSeq: number, id:stri
               behavior: 'smooth'
             })
           }}>
-          Learn more
+          {props.buttonText}
           <svg className=" w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
           </svg>

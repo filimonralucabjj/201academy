@@ -1,15 +1,17 @@
 import React from 'react'
-import DetailsLeft from "./DetailsLeft"
-import DetailsRight from "./DetailsRight"
-import { bjjDetails, kickDetails, armWrestlingDetails } from '../constants/index';
+import DetailsCard from "./DetailsCard"
+// import { bjjDetails, kickDetails, armWrestlingDetails } from '../constants/index';
+import { useTranslation } from 'react-i18next';
+import { DetailsItemType } from '../types';
 
 
 const Details = () => {
+    const [t, i18n] = useTranslation("global")
     return (
         <section>
-            <DetailsLeft info={bjjDetails} />
-            <DetailsRight info={kickDetails} />
-            <DetailsLeft info={armWrestlingDetails} />
+            <DetailsCard info={t('bjj', { returnObjects: true }) as DetailsItemType} black={false} />
+            <DetailsCard info={t('kick', { returnObjects: true }) as DetailsItemType} black={true} />
+            <DetailsCard info={t('arm', { returnObjects: true }) as DetailsItemType} black={false} />
         </section>
     )
 }

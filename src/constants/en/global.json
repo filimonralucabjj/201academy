@@ -1,0 +1,176 @@
+{
+    "buttons": {
+        "learnMore": "Learn more",
+        "schedule": "Show schedule",
+        "scheduleActive": "Hide schedule"
+    },
+    "header": {
+        "title": "Two on One Academy",
+        "subtitle": "is a full spectrum combat sports academy focused on Mixed Martial Arts and Grappling",
+        "buttonText": "Contact us"
+    },
+    "navigation": [
+        {
+            "id": 0,
+            "isActive": false,
+            "title": "Brazilian jiu jitsu",
+            "url": "bjj"
+        },
+        {
+            "id": 1,
+            "isActive": false,
+            "title": "KickBoxing",
+            "url": "kickboxing"
+        },
+        {
+            "id": 2,
+            "isActive": false,
+            "title": "ArmWresting",
+            "url": "armwrestling"
+        },
+        {
+            "id": 3,
+            "isActive": false,
+            "title": "Kids Classes",
+            "url": "kids"
+        },
+        {
+            "id": 4,
+            "isActive": false,
+            "title": "Prices",
+            "url": "prices"
+        },
+        {
+            "id": 5,
+            "isActive": true,
+            "title": "Contact",
+            "url": "contact"
+        }
+    ],
+    "activities": {
+        "title": "Invest in your potential",
+        "subtitle": "Combine physical fitness with mental discipline, self-defense, and personal development"
+    },
+    "cards": [
+        {
+            "id": 0,
+            "title": "Brazilian Jiu jistu",
+            "subtitle": "A combat sport that focuses on grappling and ground fighting, with an emphasis on submission holds and control techniques.",
+            "elementId": "bjj",
+            "img": "/images/bjjActivity.jpg"
+        },
+        {
+            "id": 1,
+            "title": "KickBoxing",
+            "subtitle": "A combat sport that combines elements of traditional boxing with kicking techniques from martial arts like karate, Muay Thai, and Taekwondo.",
+            "elementId": "kickboxing",
+            "img": "/images/kickActivity.jpg"
+        },
+        {
+            "id": 2,
+            "title": "ArmWrestling",
+            "subtitle": "A sport that tests the strength, technique, and endurance of the arm, shoulder, and upper body muscles.",
+            "elementId": "armwrestling",
+            "img": "/images/armActivity.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Kids classes",
+            "subtitle": "Whether you're looking to boost your child's self-confidence, improve their fitness, or teach them discipline and focus, martial arts provide a structured environment for growth.",
+            "elementId": "kids",
+            "img": "/images/kidsActivity.jpg"
+        }
+    ],
+    "bjj": {
+        "id": 0,
+        "sectionId": "bjj",
+        "title": "Brazilian Jiu jistu",
+        "subtitle1": "Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art that focuses on ground fighting and submission holds. Originating in Brazil in the early 20th century, it was developed from Japanese Jiu-Jitsu and Judo, and it has become one of the most popular and effective martial arts globally, particularly in mixed martial arts (MMA) competitions.",
+        "subtitle2": "BJJ emphasizes technique and leverage over physical strength, allowing a smaller, weaker individual to defend against and defeat a larger, stronger opponent.",
+        "img1": "/images/bjj2.jpg",
+        "img2": "/images/bjj4.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Floor 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Monday",
+                "hour": "7:00 - 8:30 PM"
+            },
+            {
+                "day": "Tuesday",
+                "hour": "8:30 - 10:00 PM"
+            },
+            {
+                "day": "Wendsday",
+                "hour": "7:00 - 8:30 PM"
+            },
+            {
+                "day": "Thursday",
+                "hour": "8:30 - 10:00 PM"
+            },
+            {
+                "day": "Friday",
+                "hour": "7:00 - 8:30 PM"
+            },
+            {
+                "day": "Saturday",
+                "hour": "2:00 - 3:30 PM"
+            },
+            {
+                "day": "Sunday",
+                "hour": "2:00 - 3:30 PM"
+            }
+        ]
+    },
+    "kick": {
+        "id": 1,
+        "sectionId": "kickboxing",
+        "title": "KickBoxing",
+        "subtitle1": "Kickboxing is a combat sport that combines elements of traditional boxing with martial arts kicks. It involves punching, kicking, and sometimes knee strikes, depending on the specific style or ruleset. The sport is practiced for self-defense, general fitness, or as a competitive activity. ",
+        "subtitle2": "Kickboxing is not only a sport but also a popular workout for fitness and conditioning. It improves cardiovascular health, strength, agility, and coordination, while also building mental toughness and discipline.",
+        "img1": "/images/kick.jpg",
+        "img2": "/images/kick1.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Floor 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Monday",
+                "hour": "8:30 - 10:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "hour": "7:00 - 8:30 PM"
+            },
+            {
+                "day": "Wendsday",
+                "hour": "8:30 - 10:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "hour": "7:00 - 8:30 PM"
+            },
+            {
+                "day": "Friday",
+                "hour": "8:30 - 10:00 PM"
+            }
+        ]
+    },
+    "arm": {
+        "id": 1,
+        "sectionId": "armwrestling",
+        "title": "ArmWrestling",
+        "subtitle1": "Arm wrestling is a strength-based sport where two opponents place their elbows on a surface and attempt to pin each other's arm down. The objective is to push the opponent’s hand to a predetermined area, usually a pad or surface on the table, to win",
+        "subtitle2": "It combines strength, technique, and strategy, and has gained popularity both as a casual activity and a competitive sport.",
+        "img1": "/images/arm.jpg",
+        "img2": "/images/arm1.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Floor 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Monday",
+                "hour": "8:30 - 10:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "hour": "7:00 - 8:30 PM"
+            }
+        ]
+    }
+}

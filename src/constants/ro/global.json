@@ -1,0 +1,176 @@
+{
+    "buttons": {
+        "learnMore": "Mai mult",
+        "schedule": "Vizualizează program",
+        "scheduleActive": "Ascunde program"
+    },
+    "header": {
+        "title": "Two on One Academy",
+        "subtitle": "este o academie de sporturi de contact cu spectru complet axată pe Arte Marțiale Mixte și Grappling",
+        "buttonText": "Contactează-ne"
+    },
+    "navigation": [
+        {
+            "id": 0,
+            "isActive": false,
+            "title": "Brazilian jiu jitsu",
+            "url": "bjj"
+        },
+        {
+            "id": 1,
+            "isActive": false,
+            "title": "KickBoxing",
+            "url": "kickboxing"
+        },
+        {
+            "id": 2,
+            "isActive": false,
+            "title": "ArmWresting",
+            "url": "armwrestling"
+        },
+        {
+            "id": 3,
+            "isActive": false,
+            "title": "Clase copii",
+            "url": "kids"
+        },
+        {
+            "id": 4,
+            "isActive": false,
+            "title": "Prețuri",
+            "url": "prices"
+        },
+        {
+            "id": 5,
+            "isActive": true,
+            "title": "Contact",
+            "url": "contact"
+        }
+    ],
+    "activities": {
+        "title": "Investește în potențialul tău",
+        "subtitle": "Combină fitnessul cu disciplina mentală, autoapărarea și dezvoltarea personală"
+    },
+    "cards": [
+        {
+            "id": 0,
+            "title": "Brazilian Jiu jistu",
+            "subtitle": "Un sport de contact care se concentrează pe grappling și luptă la sol, cu accent pe tehnicile de control.",
+            "elementId": "bjj",
+            "img": "/images/bjjActivity.jpg"
+        },
+        {
+            "id": 1,
+            "title": "KickBoxing",
+            "subtitle": "Un sport de contact care combină elemente de box tradițional cu tehnici din alte arte marțiale precum karate, Muay Thai și Taekwondo.",
+            "elementId": "kickboxing",
+            "img": "/images/kickActivity.jpg"
+        },
+        {
+            "id": 2,
+            "title": "ArmWrestling",
+            "subtitle": "Un sport care testează forța, tehnica și rezistența mușchilor brațului, umărului și a corpului superior.",
+            "elementId": "armwrestling",
+            "img": "/images/armActivity.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Kids classes",
+            "subtitle": "Indiferent dacă doriți să creșteți încrederea în sine a copilului dvs., să-i îmbunătățiți forma fizică sau să-i învățați disciplina și concentrarea, artele marțiale sunt răspunsul.",
+            "elementId": "kids",
+            "img": "/images/kidsActivity.jpg"
+        }
+    ],
+    "bjj": {
+        "id": 0,
+        "sectionId": "bjj",
+        "title": "Brazilian Jiu jistu",
+        "subtitle1": "Brazilian Jiu-Jitsu (BJJ) este o artă marțială bazată pe grappling, care se concentrează pe luptele la sol și pe prizele de supunere. Originar din Brazilia la începutul secolului al XX-lea, a fost dezvoltat din Jiu-Jitsu și Judo japonez și a devenit una dintre cele mai populare și mai eficiente arte marțiale la nivel global, în special în competițiile de arte marțiale mixte (MMA).",
+        "subtitle2": "BJJ pune accent pe tehnică și pârghie în detrimentul puterii fizice, permițând unui individ mai mic și mai slab să se apere și să învingă un adversar mai mare și mai puternic.",
+        "img1": "/images/bjj2.jpg",
+        "img2": "/images/bjj4.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Etaj 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Luni",
+                "hour": "19:00 - 20:30"
+            },
+            {
+                "day": "Marți",
+                "hour": "20:30 - 22:00"
+            },
+            {
+                "day": "Miercuri",
+                "hour": "19:00 - 20:30"
+            },
+            {
+                "day": "Joi",
+                "hour": "20:30 - 22:00"
+            },
+            {
+                "day": "Vineri",
+                "hour": "19:00 - 20:30"
+            },
+            {
+                "day": "Sâmbătă",
+                "hour": "14:00 - 15:30"
+            },
+            {
+                "day": "Duminică",
+                "hour": "14:00 - 15:30"
+            }
+        ]
+    },
+    "kick": {
+        "id": 1,
+        "sectionId": "kickboxing",
+        "title": "KickBoxing",
+        "subtitle1": "Kickboxing-ul este un sport de luptă care combină elementele boxului tradițional cu loviturile de arte marțiale. Aceasta implică lovirea cu pumnii, loviturile cu picioarele și, uneori, lovituri de genunchi, în funcție de stilul sau de regulile specifice. Sportul este practicat pentru autoapărare, fitness general sau ca activitate competitivă.",
+        "subtitle2": "Kickboxingul nu este doar un sport, ci și un antrenament popular pentru fitness și condiționare. Îmbunătățește sănătatea cardiovasculară, forța, agilitatea și coordonarea, în același timp construind duritatea mentală și disciplina.",
+        "img1": "/images/kick.jpg",
+        "img2": "/images/kick1.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Etaj 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Luni",
+                "hour": "8:30 - 10:00"
+            },
+            {
+                "day": "Marti",
+                "hour": "7:00 - 8:30"
+            },
+            {
+                "day": "Miercuri",
+                "hour": "8:30 - 10:00"
+            },
+            {
+                "day": "Joi",
+                "hour": "7:00 - 8:30"
+            },
+            {
+                "day": "Vineri",
+                "hour": "8:30 - 10:00"
+            }
+        ]
+    },
+    "arm": {
+        "id": 1,
+        "sectionId": "armwrestling",
+        "title": "ArmWrestling",
+        "subtitle1": "Arm wrestling-ul este un sport bazat pe forță, în care doi adversari își pun coatele pe o suprafață și încearcă să-și prindă brațul în jos. Obiectivul este de a împinge mâna adversarului într-o zonă predeterminată, de obicei un pad sau o suprafață de pe masă, pentru a câștiga",
+        "subtitle2": "Combină forța, tehnica și strategia și a câștigat popularitate atât ca activitate ocazională, cât și ca sport competitiv.",
+        "img1": "/images/arm.jpg",
+        "img2": "/images/arm1.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Etaj 4, Iași 700671",
+        "schedule": [
+            {
+                "day": "Luni",
+                "hour": "8:30 - 10:00"
+            },
+            {
+                "day": "Marti",
+                "hour": "7:00 - 8:30"
+            }
+        ]
+    }
+}
