@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 const Header = () => {
     const [t] = useTranslation("global");
     return (
-        <section className="relative h-[650px] overflow-hidden bg-header-bg bg-cover bg-[50%] bg-no-repeat">
+        <section className="relative h-[650px] overflow-hidden bg-cover bg-[50%] bg-no-repeat" style={{ backgroundImage: `url('/images/header-bg.jpg')` }}>
             <div
                 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
             >
