@@ -7,12 +7,12 @@
 const Cards = (props: {key:number, title: string, subtitle: string, id:string, img:string , buttonText: string}) => {
   // const images = [bjj, kick, armwrestling, kids];
   return (
-    <div className="max-w-sm rounded-lg shadow bg-zinc-900 mb-5 brightness-50 hover:brightness-100 focus:brightness-100">
+    <div className="max-w-sm rounded-lg shadow bg-zinc-900 mb-5 brightness-100 md:brightness-50 hover:brightness-100 focus:brightness-100">
       <img className="rounded-t-lg object-cover h-48 w-96" src={props.img} alt="sdd" />
       <div className="p-5 h-50 md:h-60">
         <h5 className="mb-2 text-2xl font-bold tracking-tight">{props.title}</h5>
         <p className="mb-3 font-normal text-zinc-300">{props.subtitle}</p>
-        <button className="inline-flex items-center font-medium text-gray-500 hover:text-zinc-50 focus:brightness-100"
+        <button className="inline-flex items-center font-medium text-zinc-50 md:text-gray-500 hover:text-zinc-50 "
           onClick= {() => {
             const element = document.getElementById(`${props.id}`);
             element?.scrollIntoView({

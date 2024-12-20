@@ -19,8 +19,8 @@ const Details = (props: { info: DetailsItemType, black: boolean }) => {
             <div className="px-4 mx-auto max-w-screen-xl text-center">
                 <div className={` ${props.black ? "" : "bg-neutral-900"} gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 p-8 md:p-16 rounded-lg shadow brightness-70`}>
                     {props.black && <div className="grid grid-cols-2 gap-4 mt-8">
-                        <img className="w-full rounded-lg brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img1} />
-                        <img className="mt-4 w-full lg:mt-10 rounded-lg brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img2} />
+                        <img className="w-full rounded-lg md:brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img1} />
+                        <img className="mt-4 w-full lg:mt-10 rounded-lg md:brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img2} />
                     </div>}
                     <div className="text-gray-400">
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">{props.info.title}</h2>
@@ -45,8 +45,8 @@ const Details = (props: { info: DetailsItemType, black: boolean }) => {
                         </button> */}
                     </div>
                     {!props.black && <div className="grid grid-cols-2 gap-4 mt-8">
-                        <img className="w-full rounded-lg brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img1} />
-                        <img className="mt-4 w-full lg:mt-10 rounded-lg brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img2} />
+                        <img className="w-full rounded-lg md:brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img1} />
+                        <img className="mt-4 w-full lg:mt-10 rounded-lg md:brightness-75 hover:brightness-100 focus:brightness-100" src={props.info.img2} />
                     </div>}
                 </div>
             </div>
