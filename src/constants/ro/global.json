@@ -35,13 +35,19 @@
             "url": "kids"
         },
         {
-            "id": 4,
+            "id": 3,
+            "isActive": false,
+            "title": "Galerie",
+            "url": "gallery"
+        },
+        {
+            "id": 5,
             "isActive": false,
             "title": "Prețuri",
             "url": "prices"
         },
         {
-            "id": 5,
+            "id": 6,
             "isActive": true,
             "title": "Contact",
             "url": "contact"
@@ -154,7 +160,7 @@
         ]
     },
     "arm": {
-        "id": 1,
+        "id": 2,
         "sectionId": "armwrestling",
         "title": "ArmWrestling",
         "subtitle1": "Arm wrestling-ul este un sport bazat pe forță, în care doi adversari își pun coatele pe o suprafață și încearcă să-și prindă brațul în jos. Obiectivul este de a împinge mâna adversarului într-o zonă predeterminată, de obicei un pad sau o suprafață de pe masă, pentru a câștiga",
@@ -172,5 +178,218 @@
                 "hour": "7:00 - 8:30"
             }
         ]
-    }
+    },
+    "kids": {
+        "id": 3,
+        "sectionId": "kids",
+        "title": "Descoperiți potențialul copilului dvs. cu BJJ, Kickboxing sau Karate!",
+        "subtitle1": "Căutați o modalitate interesantă de a vă ajuta copilul să-și dezvolte încrederea, concentrarea și disciplina? Cursurile noastre Brazilian Jiu-Jitsu, Kickboxing și Karate oferă oportunitatea perfectă!",
+        "subtitle2": "Toate cele trei clase oferă un mediu sigur și distractiv în care copiii de toate vârstele pot crește, își pot face prieteni noi și își pot dezvolta abilități pe tot parcursul vieții. Instructorii noștri experimentați sunt dedicați să ghideze fiecare copil în călătoria sa unică.",
+        "img1": "/images/kids1.jpg",
+        "address": "Bulevardul Poitiers Nr 2 Etaj 4, Iași 700671"
+    },
+    "kidsDetails": [
+        {
+            "id": 0,
+            "title": "BJJ copii",
+            "subtitle": "Dezvoltă încrederea, disciplina și abilitățile de autoapărare într-un mediu distractiv și sigur",
+            "schedule": [
+                {
+                    "day": "Luni",
+                    "hour": "18:00 - 19:00"
+                },
+                {
+                    "day": "Joi",
+                    "hour": "18:00 - 19:00"
+                },
+                {
+                    "day": "Duminică",
+                    "hour": "16:00 - 17:00"
+                }
+            ],
+            "coach": "Andreea Brînză",
+            "coachDesc": [
+                "campioană mondială la Kempo",
+                "vicecampioană europeană și mondială la grappling"
+            ],
+            "coachImg": "/images/Andreea.jpg",
+            "img": "/images/kid2.jpg"
+        },
+        {
+            "title": "KickBoxing copii",
+            "id": 1,
+            "subtitle": "Dezvoltă încrederea, disciplina și abilitățile de autoapărare într-un mediu distractiv și sigur",
+            "schedule": [
+                {
+                    "day": "Luni",
+                    "hour": "18:00 - 19:00"
+                },
+                {
+                    "day": "Miercuri",
+                    "hour": "18:00 - 19:00"
+                },
+                {
+                    "day": "Vineri",
+                    "hour": "18:00 - 19:00"
+                }
+            ],
+            "coach": "Robert Dorin",
+            "coachDesc": [
+                "Antrenor principal"
+            ],
+            "coachImg": "/images/kid2.jpg",
+            "img": "/images/kids-kick.jpg"
+        },
+        {
+            "title": "Karate copii",
+            "id": 2,
+            "subtitle": "Dezvoltă încrederea, disciplina și abilitățile de autoapărare într-un mediu distractiv și sigur",
+            "schedule": [
+                {
+                    "day": "Sâmbătă",
+                    "hour": "12:30 - 14:00"
+                },
+                {
+                    "day": "Duminică",
+                    "hour": "10:30 - 12:00"
+                }
+            ],
+            "coach": "Un baiat",
+            "coachDesc": [
+                "Antrenor principal"
+            ],
+            "coachImg": "/images/kids.jpg",
+            "img": "/images/kids.jpg"
+        }
+    ],
+    "kidsSection": {
+        "title": "'Every champion was once a beginner.'",
+        "subtitle": "Ca sa fii expert în orice domeniu necesită aproximativ 10.000 de ore de practică dedicată"
+    },
+    "pricing": [
+        {
+            "id": 0,
+            "title": "Fitness & Armwrestling",
+            "options": [
+                {
+                    "id": 0,
+                    "title": "Fitness",
+                    "price": 150,
+                    "per": "month",
+                    "includes": [
+                        "Acces Sala Fitness"
+                    ],
+                    "excludes": [
+                        "Antrenamente Skandenberg"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Armwrestling",
+                    "price": 200,
+                    "per": "month",
+                    "includes": [
+                        "Acces Sala Fitness",
+                        "Antrenamente Skandenberg"
+                    ],
+                    "excludes": []
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "BJJ & Kickboxing",
+            "options": [
+                {
+                    "id": 0,
+                    "title": "Single",
+                    "price": 300,
+                    "per": "month",
+                    "includes": [
+                        "Acces Sala Fitness",
+                        "Acces o discipina"
+                    ],
+                    "excludes": [
+                        "Antrenamente Skandenberg"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title": "Double",
+                    "price": 450,
+                    "per": "month",
+                    "includes": [
+                        "Acces Sala Fitness",
+                        "Acces doua discipline"
+                    ],
+                    "excludes": [
+                        "Antrenamente Skandenberg"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Full access",
+                    "price": 500,
+                    "per": "month",
+                    "includes": [
+                        "Acces Sala Fitness",
+                        "Acces la toate disciplinele",
+                        "Antrenamente Skandenberg"
+                    ],
+                    "excludes": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "kids",
+            "options": []
+        },
+        {
+            "id": 3,
+            "title": "private sessions",
+            "options": [
+                {
+                    "id": 3,
+                    "title": "Antr. Private (Single)",
+                    "price": 200,
+                    "per": "session",
+                    "includes": [
+                        "One training session"
+                    ],
+                    "excludes": []
+                },
+                {
+                    "id": 4,
+                    "title": "Antr. Private (Pack)",
+                    "price": 150,
+                    "per": "session",
+                    "includes": [
+                        "Minim 3 sedinte/ Sapt"
+                    ],
+                    "excludes": []
+                }
+            ]
+        }
+    ],
+    "gallery": [
+        "/images/bjjActivity.jpg",
+        "/images/kickActivity.jpg",
+        "/images/kidsActivity.jpg",
+        "/images/armActivity.jpg",
+        "/images/bjj.jpg",
+        "/images/bjj1.jpg",
+        "/images/bjj2.jpg",
+        "/images/bjj3.jpg",
+        "/images/bjj4.jpg",
+        "/images/bjjActivity.jpg",
+        "/images/kickActivity.jpg",
+        "/images/kidsActivity.jpg",
+        "/images/armActivity.jpg",
+        "/images/bjj.jpg",
+        "/images/bjj1.jpg",
+        "/images/bjj2.jpg",
+        "/images/bjj3.jpg",
+        "/images/bjj4.jpg"
+    ]
 }

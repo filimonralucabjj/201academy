@@ -22,7 +22,7 @@ const BacKOnTop = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
     return (
-        <button className={`${isVisible ? 'opacity-100' : 'opacity-0 hidden'} fixed bottom-5 end-5 rounded-full bg-zinc-900 p-3 text-xs shadow-md transition duration-150 ease-in-out hover:bg-zinc-700 hover:shadow-lg transition-opacity `}
+        <button className={`${isVisible ? 'opacity-100' : 'opacity-0 hidden'} z-20 fixed bottom-5 end-5 rounded-full bg-zinc-900 p-3 text-xs shadow-md transition duration-150 ease-in-out hover:bg-zinc-700 hover:shadow-lg transition-opacity m-2`}
             onClick={backToTop}>
             <span className="[&>svg]:w-4">
                 <svg

@@ -4,7 +4,7 @@ import React from 'react'
 // import armwrestling from '../assets/arm.jpg'
 // import kids from '../assets/kids.jpg'
 
-const Cards = (props: { title: string, subtitle: string, id:string, img:string , buttonText: string}) => {
+const Cards = (props: {key:number, title: string, subtitle: string, id:string, img:string , buttonText: string}) => {
   // const images = [bjj, kick, armwrestling, kids];
   return (
     <div className="max-w-sm rounded-lg shadow bg-zinc-900 mb-5 brightness-50 hover:brightness-100">

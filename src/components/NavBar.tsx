@@ -22,7 +22,7 @@ export const NavBar = () => {
         }
     }
 
-    const linkClass = (isActive: boolean) => isActive ? 'bg-zinc-900/70 hover:bg-zinc-900 rounded-md px-4 py-3' : 'hover:bg-zinc-900/70 rounded-md px-4 py-3';
+    const linkClass = (isActive: boolean) => isActive ? 'bg-zinc-900/70 hover:bg-zinc-900 rounded-md px-4 py-3 cursor-pointer' : 'hover:bg-zinc-900/70 rounded-md px-4 py-3 cursor-pointer';
     return (
         <nav className="absolute top-0 w-full bg-black bg-opacity-20 bg-clip-padding backdrop-blur">
             <div className={`${openNavigation ? "bg-zinc-950" : ""} mx-auto max-w-7xl px-6 sm:px-10 lg:px-8`}>
