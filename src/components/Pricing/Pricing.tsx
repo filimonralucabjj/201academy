@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from '../Title'
 import PricingCard from './PricingCard'
 import { useState } from 'react'
@@ -6,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { PricingItemType, ItemPrice } from '../../types'
 
 const Pricing = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
   const [active, setActive] = useState(0);
   const pricingItems: PricingItemType[] = t('pricing', { returnObjects: true }) as PricingItemType[];
   return (

@@ -1,12 +1,12 @@
-import { useState, useRef } from 'react'
+// import { useState} from 'react'
 import TimeTable from './TimeTable';
 import { DetailsItemType } from '../types';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 const Details = (props: { info: DetailsItemType, black: boolean }) => {
-    const [t, i18n] = useTranslation("global")
+    // const [t] = useTranslation("global")
     // const [openSchedule, setOpenSchedule] = useState(false);
-    const [buttonText, setButtonText] = useState(t("buttons.schedule"));
+    // const [buttonText, setButtonText] = useState(t("buttons.schedule"));
     // const toggleSchedule = () => {
     //     if (openSchedule) {
     //         setOpenSchedule(false);

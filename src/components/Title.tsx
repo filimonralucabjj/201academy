@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Title = (props: { title: string, subtitle: string}) => {
   return (

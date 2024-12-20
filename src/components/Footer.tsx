@@ -1,8 +1,7 @@
-import React from 'react'
 import logo from '../assets/logo.svg'
 import { useTranslation } from 'react-i18next'
 const Footer = () => {
-    const [t, i18n] = useTranslation("global")
+    const [t] = useTranslation("global")
     type ItemType = {
         id: number,
         isActive: boolean;

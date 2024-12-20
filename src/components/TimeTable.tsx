@@ -1,4 +1,3 @@
-import React from 'react'
 import { ItemSchedule } from '../types'
 
 const TimeTable = (props: { schedule: ItemSchedule[] | null, address: string | null }) => {

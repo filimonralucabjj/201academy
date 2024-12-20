@@ -1,4 +1,4 @@
-import React from 'react'
+
 // import bjj from '../assets/bjj1.jpg'
 // import kick from '../assets/kick.jpg'
 // import armwrestling from '../assets/arm.jpg'

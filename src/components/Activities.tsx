@@ -1,12 +1,10 @@
-import React from 'react'
 import Title from './Title'
 import Cards from './Cards'
-import { activities } from '../constants/index';
 import { useTranslation } from 'react-i18next';
 import { ActivityItemType } from '../types';
 
 const Activities = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
   const cardItems: ActivityItemType[] = t('cards', { returnObjects: true }) as ActivityItemType[];
   return (
     <>

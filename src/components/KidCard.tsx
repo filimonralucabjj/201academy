@@ -1,4 +1,3 @@
-import React from 'react'
 import { KidsDetailsItemType } from '../types'
 import TimeTable from './TimeTable'
 

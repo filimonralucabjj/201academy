@@ -1,11 +1,10 @@
-import React from 'react'
-import FlipCard from './FlipCard'
+
 import KidCard from './KidCard'
 import { useTranslation } from 'react-i18next'
 import { KidsDetailsItemType } from '../types'
 import Title from './Title'
 const KidsFlipingCards = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
     const kidsDetailItems: KidsDetailsItemType[] = t("kidsDetails", { returnObjects: true }) as KidsDetailsItemType[];
     return (
         <section>

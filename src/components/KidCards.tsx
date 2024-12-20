@@ -1,9 +1,8 @@
-import React from 'react'
 import KidsFlipingCards from './KidsFlipingCards'
 import { useTranslation } from 'react-i18next'
 
 const KidCards = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
     return (
         <>
             <section id="kids" className="container py-8 px-4 md:py-10 mx-auto max-w-screen-xl text-center">

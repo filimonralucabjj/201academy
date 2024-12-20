@@ -1,10 +1,9 @@
-import React from 'react'
 import { KidsDetailsItemType } from '../types'
 import TimeTable from './TimeTable'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 const FlipCard = (props: { key: number, info: KidsDetailsItemType }) => {
-    const [fliped, setFliped] = useState(false);
+    // const [fliped, setFliped] = useState(false);
     // const toggleFlip = () => {
     //     if (fliped) {
     //         setFliped(false);

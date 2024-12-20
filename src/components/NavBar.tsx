@@ -1,11 +1,10 @@
-import React from 'react'
 import { useState } from 'react'
 import logo from '../assets/logo.svg'
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
 
 export const NavBar = () => {
-    const [t, i18n] = useTranslation("global")
+    const [t] = useTranslation("global")
     type ItemType = {
         id: number,
         isActive: boolean;

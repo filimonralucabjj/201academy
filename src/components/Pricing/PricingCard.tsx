@@ -1,4 +1,3 @@
-import React from 'react'
 import EnabledLine from './EnabledLine'
 import DisabledLine from './DisabledLine'
 import { ItemPrice } from '../../types'

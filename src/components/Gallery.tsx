@@ -1,11 +1,10 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 
 const Gallery = () => {
     const [selected, setSelected] = useState(1);
     const [start, setStart] = useState(0);
-    const [t, i18n] = useTranslation("global")
+    const [t] = useTranslation("global")
     const windowSize = window.innerWidth < 768 ? 3 : 8;
     const images: string[] = t('gallery', { returnObjects: true }) as string[];
 

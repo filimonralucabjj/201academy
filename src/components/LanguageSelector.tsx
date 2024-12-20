@@ -1,8 +1,8 @@
-import React from 'react'
+
 import { useTranslation } from 'react-i18next';
 
 const LanguageSelector = () => {
-    const [t, i18n] = useTranslation("global")
+    const [, i18n] = useTranslation("global")
     const changeLanguage = () => {
         if (i18n.language === "ro")
             i18n.changeLanguage("en");
