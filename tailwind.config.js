@@ -25,7 +25,7 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'header-bg': "url('./src/assets/header-bg.jpg')"
+      'header-bg': "url('./public/images/header-bg.jpg')"
     }
   },
   // plugins: [CustomStyle],
