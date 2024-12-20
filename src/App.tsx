@@ -15,8 +15,8 @@ const App = () => {
       <Activities />
       <Details/>
       <Pricing />
+      <Gallery/>
       <ContactUs/>
-      {/* <Gallery/> */}
       <Footer/>
     </BrowserRouter>
   )
