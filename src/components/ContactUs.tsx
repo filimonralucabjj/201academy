@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next'
 
 const ContactUs = () => {
-    return (
+    const [t] = useTranslation("global")
+        return (
         <section id="contact" className="bg-neutral-900">
             <div className="py-10 mx-auto max-w-screen-xl">
                 <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
@@ -16,19 +18,20 @@ const ContactUs = () => {
                         <div>
                             <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                                 <div className="px-6 py-4">
-                                    <h3 className="font-medium ">Our Address</h3>
-                                    <p className="mt-1 text-gray-400 text-sm">123 Main St, San Francisco, CA 94105</p>
+                                    <h3 className="font-medium ">{t("contact.addressTitle")}</h3>
+                                    <p className="mt-1 text-gray-400">{t("contact.address")}</p>
+                                    <p className="mt-1 text-gray-400">Cladirea Socar/RVR - Receptie Service - et. 4</p>
                                 </div>
-                                <div className="border-t border-gray-200 px-6 py-4">
+                                {/* <div className="border-t border-gray-200 px-6 py-4">
                                     <h3 className="font-medium ">Hours</h3>
                                     <p className="mt-1 text-gray-400">Monday - Friday: 9am - 5pm</p>
                                     <p className="mt-1 text-gray-400">Saturday: 10am - 4pm</p>
                                     <p className="mt-1 text-gray-400">Sunday: Closed</p>
-                                </div>
+                                </div> */}
                                 <div className="border-t border-gray-200 px-6 py-4">
                                     <h3 className="font-medium ">Contact</h3>
-                                    <p className="mt-1 text-gray-400">Email: info@example.com</p>
-                                    <p className="mt-1 text-gray-400">Phone: +1 23494 34993</p>
+                                    <p className="mt-1 text-gray-400">{t("contact.email")}</p>
+                                    <p className="mt-1 text-gray-400">{t("contact.number")}</p>
                                 </div>
                             </div>
                         </div>

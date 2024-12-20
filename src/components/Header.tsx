@@ -15,9 +15,16 @@ const Header = () => {
                             <p className="my-4 text-xl">{t("header.subtitle")}</p>
                             <button
                                 type="button"
-                                className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-400 hover:text-neutral-400"
+                                className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-400 hover:text-neutral-400 focus:border-neutral-400 focus:text-neutral-400"
                                 data-twe-ripple-init
-                                data-twe-ripple-color="light">
+                                data-twe-ripple-color="light"
+                                onClick={e => {
+                                    let element = document.getElementById(`contact`);
+                                    e.preventDefault();
+                                    element?.scrollIntoView({
+                                        behavior: 'smooth'
+                                    })
+                                }}>
                                 {t("header.buttonText")}
                             </button>
                         </div>
