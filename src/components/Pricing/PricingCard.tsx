@@ -11,7 +11,7 @@ const PricingCard = (props: {key:number, item: ItemPrice}) => {
         //         <span className="text-5xl font-extrabold tracking-tight">{props.item.price}</span>
         //         <span className="ms-1 text-xl font-normal text-gray-400">/{props.item.per}</span>
         //     </div>
-            <div className="lg:w-1/4 m-5 flex flex-col p-6 max-w-lg text-center rounded-lg border shadow border-neutral-800 xl:p-8 bg-neutral-900 text-white">
+            <div className="w-full mx-10 my-5 lg:w-1/4 lg:mx-5 flex flex-col p-6 max-w-lg text-center rounded-lg border shadow border-neutral-800 xl:p-8 bg-neutral-900 text-white">
               <h3 className="text-xl font-semibold">{props.item.title}</h3>
               {/* <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p> */}
               <div className="flex justify-center items-baseline mt-8">
