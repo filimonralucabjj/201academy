@@ -96,6 +96,7 @@ export const NavBar = () => {
                       element?.scrollIntoView({
                         behavior: "smooth",
                       });
+                      setOpenNavigation(false);
                     }}
                   >
                     {item.title}
