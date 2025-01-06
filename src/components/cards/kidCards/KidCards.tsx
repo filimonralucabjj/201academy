@@ -1,4 +1,4 @@
-import KidsFlipingCards from './KidsFlipingCards'
+import KidsDetailsCards from './KidsDetailsCards'
 import { useTranslation } from 'react-i18next'
 
 const KidCards = () => {
@@ -23,7 +23,7 @@ const KidCards = () => {
                     </div>
                 </div>
             </section>
-            <KidsFlipingCards />
+            <KidsDetailsCards />
         </>
     )
 }

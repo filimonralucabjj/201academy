@@ -1,7 +1,7 @@
-import Title from './Title'
+import Title from '../utils/Title'
 import Cards from './Cards'
 import { useTranslation } from 'react-i18next';
-import { ActivityItemType } from '../types';
+import { ActivityItemType } from '../../types';
 
 const Activities = () => {
   const [t] = useTranslation("global")

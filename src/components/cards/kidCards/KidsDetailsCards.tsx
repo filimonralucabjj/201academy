@@ -1,8 +1,8 @@
 
 import KidCard from './KidCard'
 import { useTranslation } from 'react-i18next'
-import { KidsDetailsItemType } from '../types'
-import Title from './Title'
+import { KidsDetailsItemType } from '../../../types'
+import Title from '../../utils/Title'
 const KidsFlipingCards = () => {
     const [t] = useTranslation("global");
     const kidsDetailItems: KidsDetailsItemType[] = t("kidsDetails", { returnObjects: true }) as KidsDetailsItemType[];

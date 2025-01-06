@@ -24,13 +24,13 @@ const Gallery = () => {
             <div className="place-items-center flex">
                 {selected > 0 && <div className="hidden md:block rounded-full bg-zinc-900 p-3 text-xs shadow-md hover:bg-zinc-700 hover:shadow-lg mr-5 cursor-pointer" onClick={() => { setSelected(selected - 1) }}>
                     <svg className="md:w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"></path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4"></path>
                     </svg>
                 </div>}
                 <img className="[h-200px] md:h-[550px] rounded-lg" src={images[selected]} alt="" />
                 {selected < images.length - 1 && <div className="hidden md:block rounded-full bg-zinc-900 p-3 text-xs shadow-md hover:bg-zinc-700 hover:shadow-lg ml-5 cursor-pointer" onClick={() => { setSelected(selected + 1) }}>
                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path>
                     </svg>
                 </div>
                 }
@@ -39,7 +39,7 @@ const Gallery = () => {
             <div className="flex justify-center items-center">
                 <button className={`${start - windowSize < 0 ? "text-gray-600" : ""} p-3 cursor-pointer`} onClick={() => { if (start - windowSize >= 0) setStart(start - windowSize) }}>
                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"></path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"></path>
                     </svg>
                 </button>
                 <div className="flex gap-4">
@@ -51,7 +51,7 @@ const Gallery = () => {
                 </div>
                 <div className={`${start + windowSize >= images.length ? "text-gray-600" : ""} p-3 cursor-pointer`} onClick={() => { if (start + windowSize < images.length - 1) updateStart(start) }}>
                     <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"></path>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"></path>
                     </svg>
                 </div>
             </div>

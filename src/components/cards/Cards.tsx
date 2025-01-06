@@ -1,11 +1,5 @@
 
-// import bjj from '../assets/bjj1.jpg'
-// import kick from '../assets/kick.jpg'
-// import armwrestling from '../assets/arm.jpg'
-// import kids from '../assets/kids.jpg'
-
 const Cards = (props: {key:number, title: string, subtitle: string, id:string, img:string , buttonText: string}) => {
-  // const images = [bjj, kick, armwrestling, kids];
   return (
     <div className="max-w-sm rounded-lg shadow bg-zinc-900 mb-5 brightness-100 md:brightness-50 hover:brightness-100 focus:brightness-100">
       <img className="rounded-t-lg object-cover h-48 w-96" src={props.img} alt="sdd" />

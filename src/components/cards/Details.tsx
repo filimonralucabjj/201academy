@@ -1,9 +1,7 @@
 import DetailsCard from "./DetailsCard"
-// import { bjjDetails, kickDetails, armWrestlingDetails } from '../constants/index';
 import { useTranslation } from 'react-i18next';
-import { DetailsItemType } from '../types';
-import KidCards from './KidCards';
-// import Title from './Title';
+import { DetailsItemType } from '../../types';
+import KidCards from './kidCards/KidCards';
 
 
 const Details = () => {

@@ -1,6 +1,6 @@
 // import { useState} from 'react'
-import TimeTable from './TimeTable';
-import { DetailsItemType } from '../types';
+import TimeTable from '../utils/TimeTable';
+import { DetailsItemType } from '../../types';
 // import { useTranslation } from 'react-i18next';
 
 const Details = (props: { info: DetailsItemType, black: boolean }) => {

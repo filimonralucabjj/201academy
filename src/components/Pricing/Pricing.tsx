@@ -1,4 +1,4 @@
-import Title from '../Title'
+import Title from '../utils/Title'
 import PricingCard from './PricingCard'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'

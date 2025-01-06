@@ -1,12 +1,12 @@
-import Header from "./components/Header"
-import Activities from "./components/Activities"
+import Header from "./components/header/Header"
+import Activities from "./components/cards/Activities"
 import { BrowserRouter} from "react-router-dom"
-import BacKOnTop from "./components/BacKOnTop"
-import Details from "./components/Details"
-import Pricing from "./components/Pricing/Pricing"
-import ContactUs from "./components/ContactUs"
-import Footer from "./components/Footer"
-import Gallery from "./components/Gallery"
+import BacKOnTop from "./components/pageUtils/BacKOnTop"
+import Details from "./components/cards/Details"
+import Pricing from "./components/pricing/Pricing"
+import ContactUs from "./components/contact/ContactUs"
+import Footer from "./components/footer/Footer"
+// import Gallery from "./components/gallery/Gallery"
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,7 +15,7 @@ const App = () => {
       <Activities />
       <Details/>
       <Pricing />
-      <Gallery/>
+      {/* <Gallery/> */}
       <ContactUs/>
       <Footer/>
     </BrowserRouter>
