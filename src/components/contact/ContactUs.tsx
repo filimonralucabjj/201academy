@@ -6,8 +6,8 @@ const ContactUs = () => {
         <section id="contact" className="bg-neutral-900">
             <div className="py-10 mx-auto max-w-screen-xl">
                 <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
-                    <h2 className="text-xl  md:text-2xl font-extrabold">Contact us</h2>
-                    <p className="mt-4 text-gray-500">Visit Our Gym and Start Your Journey Today!</p>
+                    <h2 className="text-xl  md:text-2xl font-extrabold">{t("contactUsSection.title")}</h2>
+                    <p className="mt-4 text-gray-500">{t("contactUsSection.subtitle")}</p>
                 </div>
                 <div className="mt-10 px-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

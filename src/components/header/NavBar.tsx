@@ -16,12 +16,13 @@ export const NavBar = () => {
   }) as ItemType[];
   const [openNavigation, setOpenNavigation] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const buttonMenuRef = useRef<HTMLButtonElement | null>(null);
   const toggleNavigation = () => {
     setOpenNavigation(!openNavigation);
   };
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+    if (menuRef.current && !menuRef.current.contains(event.target as Node) && !buttonMenuRef.current?.contains(event.target as Node)) {
         setOpenNavigation(false);
     }
   };
@@ -50,7 +51,7 @@ export const NavBar = () => {
               <img className="h-14 w-auto" src={logo} alt="React Jobs" />
             </div>
             <div className="ml-auto inline-flex items-center justify-center text-sm rounded-lg lg:hidden">
-              <button
+              <button ref={buttonMenuRef}
                 data-collapse-toggle="navbar-default"
                 type="button"
                 className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg text-gray-400 hover:bg-zinc-900/70"
@@ -76,12 +77,12 @@ export const NavBar = () => {
                 </svg>
               </button>
             </div>
-            <div
+            <div ref={menuRef}
               className={`${
                 openNavigation ? "flex pb-[5rem]" : "hidden"
               } bg-zinc-950 fixed top-[5rem] left-0 right-0 lg:bg-transparent lg:static lg:flex ml-auto items-center justify-center`}
             >
-              <div ref={menuRef}
+              <div
                 className={`${
                   openNavigation ? "relative z-2 flex flex-col" : "space-x-2"
                 } lg:block items-center justify-center m-auto`}

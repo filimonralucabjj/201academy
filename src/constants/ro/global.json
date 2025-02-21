@@ -13,7 +13,7 @@
     {
       "id": 0,
       "isActive": false,
-      "title": "Brazilian jiu jitsu",
+      "title": "Brazilian Jiu Jitsu",
       "url": "bjj"
     },
     {
@@ -33,12 +33,6 @@
       "isActive": false,
       "title": "Clase copii",
       "url": "kids"
-    },
-    {
-      "id": 4,
-      "isActive": false,
-      "title": "Galerie",
-      "url": "gallery"
     },
     {
       "id": 5,
@@ -139,23 +133,23 @@
     "schedule": [
       {
         "day": "Luni",
-        "hour": "8:30 - 10:00"
+        "hour": "20:30 - 22:00"
       },
       {
         "day": "Marti",
-        "hour": "7:00 - 8:30"
+        "hour": "19:00 - 20:30"
       },
       {
         "day": "Miercuri",
-        "hour": "8:30 - 10:00"
+        "hour": "20:30 - 22:00"
       },
       {
         "day": "Joi",
-        "hour": "7:00 - 8:30"
+        "hour": "19:00 - 20:30"
       },
       {
         "day": "Vineri",
-        "hour": "8:30 - 10:00"
+        "hour": "20:30 - 22:00"
       }
     ]
   },
@@ -171,11 +165,11 @@
     "schedule": [
       {
         "day": "Luni",
-        "hour": "8:30 - 10:00"
+        "hour": "20:30 - 10:00"
       },
       {
         "day": "Marti",
-        "hour": "7:00 - 8:30"
+        "hour": "19:00 - 20:30"
       }
     ]
   },
@@ -266,6 +260,10 @@
     "title": "Prețuri",
     "subtitle": "Alege abonamentul potrivit pentru tine"
   },
+  "contactUsSection": {
+    "title": "Contactează-ne",
+    "subtitle": "Vizitează sala noastră, te așteptăm!"
+  },
   "pricing": [
     {
       "id": 0,
@@ -332,7 +330,7 @@
           "title": "BJJ copii",
           "price": 200,
           "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "includes": ["Acces la o disciplină"],
           "excludes": []
         },
         {
@@ -340,7 +338,7 @@
           "title": "Kickboxing copii",
           "price": 200,
           "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "includes": ["Acces la o disciplină"],
           "excludes": []
         },
         {
@@ -348,7 +346,7 @@
           "title": "Karate copii",
           "price": 200,
           "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "includes": ["Acces o disciplină"],
           "excludes": []
         }
       ]
@@ -362,7 +360,7 @@
           "title": "Antr. Private (Single)",
           "price": 200,
           "per": "session",
-          "includes": ["One training session"],
+          "includes": ["O sesiune de antrenament"],
           "excludes": []
         },
         {
@@ -370,7 +368,7 @@
           "title": "Antr. Private (Pack)",
           "price": 150,
           "per": "session",
-          "includes": ["Minim 3 sedinte/ Sapt"],
+          "includes": ["Minim 3 sedinte/Sapt"],
           "excludes": []
         }
       ]
@@ -386,7 +384,7 @@
       },
       {
         "days": "Sambata-Duminica",
-        "hours": "18:00 - 22:00"
+        "hours": "14:00 - 16:00"
       }
     ],
     "number": "Telefon: +40 744 559 550",

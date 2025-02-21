@@ -35,12 +35,6 @@
       "url": "kids"
     },
     {
-      "id": 4,
-      "isActive": false,
-      "title": "Gallery",
-      "url": "gallery"
-    },
-    {
       "id": 5,
       "isActive": false,
       "title": "Prices",
@@ -106,7 +100,7 @@
         "hour": "8:30 - 10:00 PM"
       },
       {
-        "day": "Wendsday",
+        "day": "Wednesday",
         "hour": "7:00 - 8:30 PM"
       },
       {
@@ -146,7 +140,7 @@
         "hour": "7:00 - 8:30 PM"
       },
       {
-        "day": "Wendsday",
+        "day": "Wednesday",
         "hour": "8:30 - 10:00 PM"
       },
       {
@@ -209,8 +203,8 @@
       ],
       "coach": "Andreea Brinza",
       "coachDesc": [
-        "campioană mondială la Kempo",
-        "vicecampioană europeană și mondială la grappling"
+        "World Champion in Kempo",
+        "European and World Vice-Champion in Grappling"
       ],
       "coachImg": "/images/Andreea.jpg",
       "img": "/images/kid2.jpg"
@@ -266,6 +260,10 @@
     "title": "Pricing",
     "subtitle": "Find your best fit"
   },
+  "contactUsSection": {
+    "title": "Contact Us",
+    "subtitle": "Visit Our Gym and Start Your Journey Today!"
+  },
   "pricing": [
     {
       "id": 0,
@@ -276,15 +274,15 @@
           "title": "Fitness",
           "price": 150,
           "per": "month",
-          "includes": ["Acces Sala Fitness"],
-          "excludes": ["Antrenamente Skandenberg"]
+          "includes": ["Access to Fitness Room"],
+          "excludes": ["Skandenberg Training"]
         },
         {
           "id": 1,
           "title": "Armwrestling",
           "price": 200,
           "per": "month",
-          "includes": ["Acces Sala Fitness", "Antrenamente Skandenberg"],
+          "includes": ["Access to Fitness Room", "Skandenberg Training"],
           "excludes": []
         }
       ]
@@ -298,16 +296,16 @@
           "title": "Single",
           "price": 300,
           "per": "month",
-          "includes": ["Acces Sala Fitness", "Acces o discipina"],
-          "excludes": ["Antrenamente Skandenberg"]
+          "includes": ["Access to Fitness Room", "Access to one class"],
+          "excludes": ["Skandenberg Training"]
         },
         {
           "id": 1,
           "title": "Double",
           "price": 450,
           "per": "month",
-          "includes": ["Acces Sala Fitness", "Acces doua discipline"],
-          "excludes": ["Antrenamente Skandenberg"]
+          "includes": ["Access to Fitness Room", "Access to two classes"],
+          "excludes": ["Skandenberg Training"]
         },
         {
           "id": 2,
@@ -315,9 +313,9 @@
           "price": 500,
           "per": "month",
           "includes": [
-            "Acces Sala Fitness",
-            "Acces la toate disciplinele",
-            "Antrenamente Skandenberg"
+            "Access to Fitness Room",
+            "Access to all classes ",
+            "Skandenberg Training"
           ],
           "excludes": []
         }
@@ -329,26 +327,26 @@
       "options": [
         {
           "id": 1,
-          "title": "BJJ copii",
+          "title": "BJJ kids",
           "price": 200,
-          "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "per": "month",
+          "includes": ["Access to one class"],
           "excludes": []
         },
         {
           "id": 2,
-          "title": "Kickboxing copii",
+          "title": "Kickboxing kids",
           "price": 200,
-          "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "per": "month",
+          "includes": ["Access to one class"],
           "excludes": []
         },
         {
           "id": 3,
-          "title": "Karate copii",
+          "title": "Karate kids",
           "price": 200,
-          "per": "lună",
-          "includes": ["Acces o disciplina"],
+          "per": "month",
+          "includes": ["Access to one class"],
           "excludes": []
         }
       ]
@@ -359,7 +357,7 @@
       "options": [
         {
           "id": 3,
-          "title": "Antr. Private (Single)",
+          "title": "Private training session (Single)",
           "price": 200,
           "per": "session",
           "includes": ["One training session"],
@@ -367,7 +365,7 @@
         },
         {
           "id": 4,
-          "title": "Antr. Private (Pack)",
+          "title": "Private training sessions (Pack)",
           "price": 150,
           "per": "session",
           "includes": ["Minim 3 sedinte/ Sapt"],
